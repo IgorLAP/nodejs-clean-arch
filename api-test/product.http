@@ -1,0 +1,21 @@
+###
+GET http://localhost:8000/products
+
+
+###
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+  "name": "Naruto Vol. 1 - Panini",
+  "price": 45.50
+}
+
+###
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+  "name": "Jojo's Bizarre Adventure - Golden Wind - Vol. 1 - Panini",
+  "price": 55.50
+}
